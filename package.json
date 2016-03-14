@@ -1,0 +1,50 @@
+{
+  "name": "bl-shared",
+  "version": "0.1.0",
+  "description": "BrighterLink Shared Components",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brightergy-IvanVesely/BL-Shared.git"
+  },
+  "keywords": [
+    "brighterlink",
+    "settings",
+    "angular"
+  ],
+  "author": "Ivan Vesely (ivan.vesely@brightergy.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Brightergy-IvanVesely/BL-Shared/issues"
+  },
+  "homepage": "https://github.com/Brightergy-IvanVesely/BL-Shared#readme",
+  "devDependencies": {
+    "babel-core": "^6.6.4",
+    "babel-loader": "^6.2.4",
+    "bower": "^1.7.7",
+    "browser-sync": "^2.11.1",
+    "browser-sync-spa": "^1.0.3",
+    "del": "^2.2.0",
+    "eslint-loader": "^1.3.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-filter": "^4.0.0",
+    "gulp-flatten": "^0.2.0",
+    "gulp-ignore": "^2.0.1",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-sass": "^2.1.1",
+    "gulp-size": "^2.0.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.3",
+    "main-bower-files": "^2.11.1",
+    "nconf": "^0.8.4",
+    "ng-annotate-loader": "^0.1.0",
+    "webpack-stream": "^3.1.0",
+    "wiredep": "^3.0.0",
+    "wrench": "^1.5.8"
+  }
+}

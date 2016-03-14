@@ -1,0 +1,35 @@
+.jambo-brief {
+    &.setting-heading {
+        padding: 0 0 7px;
+        background: #fff;
+        .setting-heading-inner {
+            @include clearfix();
+            padding: 12px 0;
+            margin-left: -15px;
+            margin-right: -15px;
+        }
+        .setting-header-visual {
+            padding-right: 27px;
+            text-align: right;
+        }
+        .avatar-wrapper {
+            width: 90px;
+            height: 90px;
+            border-width: 4px;
+            .avatar {
+                line-height: 82px;
+                .profile-img {
+                    width: 82px;
+                    height: 82px;
+                }
+            }
+        }
+        .title {
+            margin-bottom: 5px;
+            display: inline-block;
+            + .label {
+                vertical-align: super;
+            }
+        }
+    }
+}
